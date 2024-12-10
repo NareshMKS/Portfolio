@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121212;
+    color: #dcdcdc;
+}
+
+.navbar-custom {
+    background-color: #121212;
+}
+
+.bg-container {
+    background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 50vh;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.blackop {
+    height: 50vh;
+    width: 100%;
+}
+
+.name {
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.content {
+    height: calc(150% - 35%);
+    min-height: 200px;
+    text-align: right;
+}
+
+#prof {
+    min-height: 28px;
+    position: relative;
+    font-size: 14px;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.view {
+    font-size: 10px;
+    transition: box-shadow 0.2s;
+}
+
+.view:hover {
+    box-shadow: 0 4px 8px 0, 0 6px 20px 0;
+}
+
+.icon {
+    height: 150px;
+    width: 120px;
+    border-radius: 20px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    width: 280px;
+    max-width: 300px;
+    transition: transform 0.5s ease-in-out, box-shadow;
+}
+
+.about:hover {
+    transform: scale(0.9);
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.para {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Roboto;
+
+}
+
+.details {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-value {
+    margin-bottom: 8px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+}
+
+.skills {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.develop {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Pacifico;
+}
+
+.hoverlist {
+    transition: transform 0.5s ease-in-out;
+}
+
+.hoverlist:hover {
+    transform: scale(1.05);
+}
+
+.pageicon {
+    width: 390px;
+    height: 300px;
+}
+
+.pagecard {
+    min-width: 230px;
+    min-height: 400px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.pagecard:hover {
+    transform: scale(0.9);
+}
+
+.pagename {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lobster;
+}
+
+.pagecontent {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.proj {
+    font-size: 10px;
+    font-family: 'Poppins', Sans-serif;
+}
+
+.feelfree {
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.getin {
+    font-size: 14px;
+    font-family: 'Poppins', Sans-Serif;
+}
+
+.finallink {
+    font-size: 10px;
+}
+
+.applink {
+    width: 30px;
+    background-color: white;
+    border-radius: 40px;
+    transition: transform 0.3s;
+}
+
+.applink:hover {
+    transform: scale(1.5);
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.right {
+    font-size: 11px;
+    font-family: Roboto;
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .bg-container {
+        height: 80vh;
+    }
+
+    .blackop {
+        height: 80vh;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .bg-container {
+        height: 50vh;
+    }
+
+    .blackop {
+        height: 50vh;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    #prof {
+        font-size: 16px;
+    }
+
+    .view {
+        font-size: 12px;
+    }
+
+    .icon {
+        height: 200px;
+        width: 140px;
+        border-radius: 40px;
+    }
+
+    .about {
+        width: 280px;
+        max-width: 300px;
+    }
+
+    .heading {
+        font-size: 23px;
+    }
+
+    .para {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50px;
+    }
+
+    .skills {
+        font-size: 23px;
+    }
+
+    .develop {
+        font-size: 16px;
+    }
+
+    .pagecard {
+        min-width: 320px;
+        min-height: 570px;
+    }
+
+    .pagename {
+        font-size: 18px;
+    }
+
+    .pagecontent {
+        font-size: 16px;
+    }
+
+    .proj {
+        font-size: 14px;
+    }
+
+    .feelfree {
+        font-size: 14px;
+    }
+
+    .getin {
+        font-size: 16px;
+    }
+
+    .finallink {
+        font-size: 12px;
+    }
+
+    .right {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .bg-container {
+        height: 60vh;
+    }
+
+    .blackop {
+        height: 60vh;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    #prof {
+        font-size: 18px;
+    }
+
+    .view {
+        font-size: 14px;
+    }
+
+    .icon {
+        height: 250px;
+        min-width: 200px;
+    }
+
+    .about {
+        min-width: 280px;
+        max-width: 280px;
+    }
+
+    .heading {
+        font-size: 26px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .skills {
+        font-size: 26px;
+    }
+
+    .develop {
+        font-size: 18px;
+    }
+
+    .pagecard {
+        min-width: 320px;
+        min-height: 560px;
+    }
+
+    .pagename {
+        font-size: 22px;
+    }
+
+    .pagecontent {
+        font-size: 16px;
+    }
+
+    .proj {
+        font-size: 16px;
+    }
+
+    .feelfree {
+        font-size: 16px;
+    }
+
+    .getin {
+        font-size: 18px;
+    }
+
+    .finallink {
+        font-size: 14px;
+    }
+
+    .right {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .bg-container {
+        height: 90vh;
+    }
+
+    .blackop {
+        height: 90vh;
+    }
+
+    .icon {
+        height: 240px;
+        min-width: 190px;
+        border-radius: 200px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    #prof {
+        font-size: 16px;
+    }
+
+    .view {
+        font-size: 16px;
+    }
+
+    .about {
+        min-width: 300px;
+        max-width: 360px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+
+    .skills {
+        font-size: 24px;
+    }
+
+    .develop {
+        font-size: 18px;
+    }
+
+    .pagecard {
+        min-width: 350px;
+        min-height: 570px;
+    }
+
+    .pagename {
+        font-size: 20px;
+    }
+
+    .pagecontent {
+        font-size: 18px;
+    }
+
+    .proj {
+        font-size: 18px;
+    }
+
+    .feelfree {
+        font-size: 18px;
+    }
+
+    .getin {
+        font-size: 26px;
+    }
+
+    .finallink {
+        font-size: 16px;
+    }
+
+    .right {
+        font-size: 18px;
+    }
+}
